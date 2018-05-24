@@ -15,8 +15,7 @@ runtime: shiny_prerendered
 ---
 
 ```{r setup, include=FALSE}
-# .libPaths('/shinyserver/libs/CompgenR/')
-root_dir = 'D:\\Drive\\JoB\\MDC\\Teaching\\Courses\\1805_Compgen'
+root_dir = getwd()
 knitr::opts_chunk$set(echo      = FALSE,
                       cache     = FALSE,
                       message   = FALSE, 
